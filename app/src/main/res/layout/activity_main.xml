@@ -5,15 +5,45 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="@color/greyFondo"
     tools:context=".MainActivity">
 
-    <GridView
-        android:id="@+id/gridview"
-        android:numColumns="3"
+    <ImageView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="470dp"
+        android:src="@drawable/popcorn"
+        android:scaleType="fitXY"/>
 
-    </GridView>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25sp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:fontFamily="sans-serif-light"
+        android:text="Welcome to PopCornFactory"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:fontFamily="sans-serif-light"
+        android:textStyle="italic"
+        android:text="Welcome to Popcorn Factory, home of the best series and movies, Just lay down, make some popcorn and enjoy"
+        android:textAlignment="center"
+        android:padding="15dp"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/button_get_me_in"
+        android:layout_width="237dp"
+        android:layout_height="39dp"
+        android:text="GET ME IN"
+        android:background="@drawable/round_button"
+        android:textColor="@color/black"
+        android:layout_gravity="center_horizontal"/>
 
 
 </LinearLayout>

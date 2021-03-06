@@ -19,7 +19,7 @@ class DetallePelicula : AppCompatActivity() {
             var txPeliculaDesc: TextView = findViewById(R.id.tv_pelicula_desc) as TextView
 
             image.setImageResource(bundle.getInt("header"))
-            txNombrePelicula.setText(bundle.getString("nombre"))
+            txNombrePelicula.setText(bundle.getString("titulo"))
             txPeliculaDesc.setText(bundle.getString("sinopsis"))
         }
     }
