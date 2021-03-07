@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".DetallePelicula"
+    tools:context=".DetalleContenido"
     android:orientation="vertical">
 
     <LinearLayout
@@ -13,7 +13,7 @@
         android:orientation="vertical">
 
         <ImageView
-            android:id="@+id/lv_pelicula_imagen"
+            android:id="@+id/lv_imagen"
             android:layout_width="match_parent"
             android:layout_height="300dp"
             android:scaleType="fitXY"
@@ -21,7 +21,7 @@
             android:src="@drawable/bones"/>
 
         <TextView
-            android:id="@+id/tv_nombre_pelicula"
+            android:id="@+id/tv_nombre"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="BONES"
@@ -31,7 +31,7 @@
             android:paddingVertical="10dp"/>
 
         <TextView
-            android:id="@+id/tv_pelicula_desc"
+            android:id="@+id/tv_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Lorem"

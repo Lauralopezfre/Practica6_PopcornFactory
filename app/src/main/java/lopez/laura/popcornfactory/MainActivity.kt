@@ -18,7 +18,7 @@ class MainActivity : AppCompatActivity() {
         val button: Button = findViewById(R.id.button_get_me_in) as Button
 
         button.setOnClickListener {
-            var intent: Intent = Intent(this, CarteleraPeliculas::class.java)
+            var intent: Intent = Intent(this, Cartelera::class.java)
             startActivity(intent)
         }
     }

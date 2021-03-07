@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">PopCornFactory</string>
+    <string name="tituloSeries">SERIES</string>
+    <string name="tituloMovies">MOVIES</string>
 </resources>
