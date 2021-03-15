@@ -12,28 +12,9 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/tituloSeries"
-        android:textColor="@color/yellow"
-        android:textSize="27dp"
-        android:paddingHorizontal="20sp"
-        android:textStyle="bold"
-        />
-
-    <GridView
-        android:id="@+id/gridviewSeries"
-        android:layout_width="match_parent"
-        android:layout_height="324dp"
-        android:numColumns="3">
-
-    </GridView>
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
         android:text="@string/tituloMovies"
         android:textColor="@color/yellow"
         android:textSize="27dp"
-        android:textAlignment="textEnd"
         android:paddingHorizontal="20sp"
         android:textStyle="bold"
         />
@@ -41,9 +22,8 @@
     <GridView
         android:id="@+id/gridviewPeliculas"
         android:layout_width="match_parent"
-        android:layout_height="353dp"
-        android:numColumns="3"
-        >
+        android:layout_height="451dp"
+        android:numColumns="3">
 
     </GridView>
 
