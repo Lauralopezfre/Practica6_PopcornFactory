@@ -19,7 +19,7 @@
             android:text="@string/tituloMovies"
             android:textColor="@color/yellow"
             android:textSize="27dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_marginLeft="20dp"
             android:textStyle="bold"
             />
@@ -28,7 +28,7 @@
             android:layout_width="match_parent"
             android:layout_height="2dp"
             android:layout_marginHorizontal="15dp"
-            android:layout_marginTop="32dp"
+            android:layout_marginTop="22dp"
             android:background="@color/yellow" />
 
     </LinearLayout>
@@ -37,7 +37,7 @@
     <GridView
         android:id="@+id/gridviewPeliculas"
         android:layout_width="match_parent"
-        android:layout_height="451dp"
+        android:layout_height="match_parent"
         android:numColumns="3">
 
     </GridView>

@@ -39,6 +39,7 @@ class DetalleContenido : AppCompatActivity() {
                 val intent: Intent = Intent(this, SeatSelection::class.java)
                 intent.putExtra("pos", pos)
                 intent.putExtra("name", title)
+                intent.putExtra("header", bundle?.getInt("header"))
                 this.startActivity(intent)
             }
         }

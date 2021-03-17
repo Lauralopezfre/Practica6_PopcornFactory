@@ -45,6 +45,7 @@
         android:layout_marginTop="@dimen/marginTopRadioGroup">
 
         <RadioButton
+            android:id="@+id/r1"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="1"
@@ -57,6 +58,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r2"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="2"
@@ -69,6 +71,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r3"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="3"
@@ -81,6 +84,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r4"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="4"
@@ -93,6 +97,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r5"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="5"
@@ -114,6 +119,7 @@
         android:layout_marginTop="@dimen/marginTopRadioGroup">
 
         <RadioButton
+            android:id="@+id/r6"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="6"
@@ -126,6 +132,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r7"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="7"
@@ -138,6 +145,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r8"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="8"
@@ -150,6 +158,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r9"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="9"
@@ -162,6 +171,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r10"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="10"
@@ -183,6 +193,7 @@
         android:layout_marginTop="@dimen/marginTopRadioGroup">
 
         <RadioButton
+            android:id="@+id/r11"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="11"
@@ -195,6 +206,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r12"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="12"
@@ -207,6 +219,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r13"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="13"
@@ -219,6 +232,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r14"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="14"
@@ -231,6 +245,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r15"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="15"
@@ -252,6 +267,7 @@
         android:layout_marginTop="@dimen/marginTopRadioGroup">
 
         <RadioButton
+            android:id="@+id/r16"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="16"
@@ -264,6 +280,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r17"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="17"
@@ -276,6 +293,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r18"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="18"
@@ -288,6 +306,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r19"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="19"
@@ -300,6 +319,7 @@
             android:textStyle="bold"/>
 
         <RadioButton
+            android:id="@+id/r20"
             android:layout_width="@dimen/radioButton"
             android:layout_height="@dimen/radioButton"
             android:text="20"

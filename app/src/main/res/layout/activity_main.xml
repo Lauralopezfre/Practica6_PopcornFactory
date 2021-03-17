@@ -40,10 +40,10 @@
         android:id="@+id/button_get_me_in"
         android:layout_width="237dp"
         android:layout_height="39dp"
-        android:text="GET ME IN"
+        android:layout_gravity="center_horizontal"
         android:background="@drawable/round_button"
-        android:textColor="@color/black"
-        android:layout_gravity="center_horizontal"/>
+        android:text="GET ME IN"
+        android:textColor="@color/black" />
 
 
 </LinearLayout>
